@@ -11,6 +11,8 @@ exports.config = {
     // Fix element scrolling behavior in Firefox for fixed header elements (like angularjs.org has)
     'elementScrollBehavior': 1
   },
+  
+   specs: ['test/e2e/tests/http.spec.js'],
 
   onPrepare: function() {
     /* global angular: false, browser: false, jasmine: false */
